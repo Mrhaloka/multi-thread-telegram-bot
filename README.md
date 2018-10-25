@@ -18,7 +18,7 @@ Getting started
 ============
 go cpanel/software/setup python app.
 
-Setup new application , after you created a new app u need install some modules , add flask , requests ,mysqlconnector and then click 
+Setup new application , after you created a new app u need install some modules , add flask , requests ,mysqlconnector,python-telegram-bot and then click 
 update now we need go and change passenger_wsgi.py
 delete all code in the passenger_wsgi.py and then replace "from myapp import application" if your project name isnt myapp u need change the 
 myapp with your project name 
