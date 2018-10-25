@@ -32,4 +32,8 @@ and one more for update useres information every 24h(we need it when someone cha
 like that
 "	wget -q -O /dev/null "http://yourdomin.com/tele/mails/notif" > /dev/null 2>&1"
 
+our DB
+============
+users--->id(primary and AUTO_INCREMENT),firstname,username,teleid,status(0-->new user,1-->enter username,2->enter password,3->wait for website,or4 -->correct user and pass)
+mails--->id(primary and AUTO_INCREMENT),users_id(in relationship with users table),username(web username),password(webpassword),active(true or false)
 HF :)
